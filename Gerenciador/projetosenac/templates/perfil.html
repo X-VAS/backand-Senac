@@ -2,9 +2,14 @@
 
 {%block titulo %}
 Perfil - {{usuario}}
-{%endblock%}
+{% endblock %}
 
 {% block body %}
 <h1>Esse é o perfil do {{usuario.username}}</h1>
+
+{% for foto in usuario.fotos %}
+<img src="">" {{ url_for('static', filename=fotos_posts/'default.jpg')}}>
+{& endfor %}
+
 <a href=" {{ url_for('logout') }}">Sair</a>
-{%endblock%}
+{% endblock %}

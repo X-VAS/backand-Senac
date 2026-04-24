@@ -4,7 +4,7 @@ from flask import render_template, url_for, redirect
 from projetosenac.forms import FormLogin, FormCriarConta
 from projetosenac.models import Usuario, Foto
 
-
+# - criar conta -----------------------------------------------
 @app.route('/criar-conta', methods=['GET', 'POST'])
 def criarconta():
     formcriarconta = FormCriarConta()
@@ -20,7 +20,7 @@ def criarconta():
 
     return render_template('criarconta.html', form=formcriarconta)
 
-
+# - Login -----------------------------------------------
 @app.route('/', methods=['GET', 'POST'])
 def homepage():
     formlogin = FormLogin()
@@ -31,7 +31,7 @@ def homepage():
             return redirect(url_for('perfil', id_usuario=usuario.id))
     return render_template('homepage.html', form=formlogin)
 
-
+# - PERFIL -----------------------------------------------
 @app.route('/perfil/<id_usuario>')
 @login_required
 def perfil(id_usuario):
@@ -42,7 +42,7 @@ def perfil(id_usuario):
         usuario = Usuario.query.get(int(id_usuario))
         return render_template('perfil.html', usuario=usuario)
 
-
+# - Sair -----------------------------------------------
 @app.route('/logout')
 @login_required
 def logout():

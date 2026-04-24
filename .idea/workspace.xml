@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19ae23e2-918e-460f-a3f7-986b8980d067" name="Changes" comment="" />
+    <list default="true" id="19ae23e2-918e-460f-a3f7-986b8980d067" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/projetosenac/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gerenciador/projetosenac/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/projetosenac/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gerenciador/projetosenac/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/projetosenac/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gerenciador/projetosenac/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/projetosenac/templates/Gerenciador.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gerenciador/projetosenac/templates/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/projetosenac/templates/perfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gerenciador/projetosenac/templates/perfil.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +36,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.PyCharmMiscProject.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,

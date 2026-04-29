@@ -5,12 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19ae23e2-918e-460f-a3f7-986b8980d067" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/PyCharmMiscProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PyCharmMiscProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/.idea/Gerenciador.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/chave.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/criar_banco.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gerenciador/criar_banco.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/instance/Gerenciador.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Gerenciador/projetosenac/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gerenciador/projetosenac/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gerenciador/projetosenac/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gerenciador/projetosenac/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/projetosenac/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/projetosenac/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gerenciador/projetosenac/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gerenciador/projetosenac/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gerenciador/projetosenac/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gerenciador/projetosenac/templates/Gerenciador.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gerenciador/projetosenac/templates/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/projetosenac/static/fotos_posts/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/projetosenac/templates/criarconta.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gerenciador/projetosenac/templates/criarconta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador/projetosenac/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gerenciador/projetosenac/templates/homepage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gerenciador/projetosenac/templates/perfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gerenciador/projetosenac/templates/perfil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +56,7 @@
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,

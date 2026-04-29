@@ -1,29 +1,39 @@
-{% extends 'Gerenciador.html' %}
+{% extends 'homepage.html' %}
 
 {% block titulo %}
-Criar conta
+Criar Conta
 {% endblock %}
 
 {% block body %}
 
-<form method="POST">
+<h1>Criar Conta</h1>
 
+<form method="POST">
     {{ form.csrf_token }}
 
-    {{ form.email.label }}
-    {{ form.email() }}
+    <p>
+        {{ form.email.label }}<br>
+        {{ form.email() }}
+    </p>
 
-    {{ form.username.label }}
-    {{ form.username() }}
+    <p>
+        {{ form.username.label }}<br>
+        {{ form.username() }}
+    </p>
 
-    {{ form.senha.label }}
-    {{ form.senha() }}
+    <p>
+        {{ form.senha.label }}<br>
+        {{ form.senha() }}
+    </p>
 
-    {{ form.confirmacao_senha.label }}
-    {{ form.confirmacao_senha() }}
+    <p>
+        {{ form.confirmacao_senha.label }}<br>
+        {{ form.confirmacao_senha() }}
+    </p>
 
-    {{ form.botao_confirmacao() }}
-
+    <p>{{ form.botao_confirmacao() }}</p>
 </form>
+
+<p>Já tem conta? <a href="{{ url_for('homepage') }}">Faça Login</a></p>
 
 {% endblock %}

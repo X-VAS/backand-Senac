@@ -1,43 +1,25 @@
 # backand-Senac
 
-> Projeto desenvolvido nas aulas do professor Nathan — Senac · Programa Empreenda
+> Projeto será base do meu projeto integrador e do Empreenda
 
 ---
 
 ## Sobre o projeto
 
-Este repositório serve como backend de estudo e, ao mesmo tempo, como esqueleto para o projeto **Empreenda**, desenvolvido no Senac.
+Criar um sistema web de salão especialista em eventos com noiva, debutantes e formadas.
+O impacto maior é gerar um cronograma levando em consideração o tempo de cada serviço porem
+a ordem dos serviços a serem feitos, por exemplo, o cabelo deverá ser lavado antes da maqueagem
+para não borrar e ter que fazer retoques, e um sistema de aleatoriedade entre as maqueadoras 
 
-A ideia central é construir um **sistema web inteligente de agendamento de serviços de salão de beleza e barbearia**, com foco especial no mercado de noivas.
+---
+## Estudo backend
+
+No projeto estudando as possibilidades de criar e organizar ferramentas que podem interagir entre
+o banco de dados e o usuario, teçando a teia entre o meu front e os formularios.
 
 ---
 
-## O problema
-
-Organizar a preparação de um casamento é um desafio real. Noivas precisam coordenar:
-
-- Cabelo, maquiagem e penteado
-- Escolha de roupa e visual completo
-- Agendamento das madrinhas
-- Cronograma de preparação no dia do evento
-
-Sem uma ferramenta adequada, essa logística vira um caos.
-
----
-
-## A solução
-
-Uma **plataforma inteligente** onde a noiva monta toda a sua preparação em um único lugar, escolhendo estilos como:
-
-- Clássico
-- Contemporâneo
-- Minimalista
-
-O sistema combina vestido, maquiagem, penteado e visual completo de forma integrada.
-
----
-
-## Funcionalidades principais
+# Funcionalidades principais
 
 ### Para a noiva
 - Escolha da maquiadora principal
@@ -63,20 +45,14 @@ O sistema combina vestido, maquiagem, penteado e visual completo de forma integr
 
 ---
 
-## Tecnologias
-
-> Em definição conforme o avanço das aulas.
-
----
 
 ## Contexto acadêmico
 
-Projeto desenvolvido como parte do programa **Empreenda** do Senac, com o objetivo de apresentar uma solução de negócio inovadora para o setor de beleza e casamentos.
-
-O tom do projeto é **inspirador, profissional e empreendedor** — mostrando que tecnologia pode resolver problemas reais e trazer eficiência tanto para noivas quanto para salões de beleza.
+Projeto desenvolvido para o programa **Empreenda** do SenacSP, com o objetivo, um solução de negócio
+inovadora para o setor de beleza e casamentos.
 
 ---
 
 ## Autor
 
-**Vinicius** — em transição para desenvolvimento, construindo este projeto como parte da sua jornada como dev.
+**Vinicius Araujo** 

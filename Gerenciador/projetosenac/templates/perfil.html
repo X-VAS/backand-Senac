@@ -1,15 +1,38 @@
-{% extends "homepage.html" %}
+{% extends 'homepage.html' %}
 
-{%block titulo %}
-Perfil - {{usuario}}
+{% block titulo %}
+Perfil - {{ usuario.username }}
 {% endblock %}
 
 {% block body %}
-<h1>Esse é o perfil do {{usuario.username}}</h1>
 
+<h1>Esse é o perfil de {{ usuario.username }}</h1>
+
+<!-- Mostra as fotos do usuário -->
 {% for foto in usuario.fotos %}
-<img src="">" {{ url_for('static', filename=fotos_posts/'default.jpg')}}>
-{& endfor %}
+    <img src="{{ url_for('static', filename='fotos_posts/' + foto.imagem) }}" width="200">
+{% endfor %}
 
-<a href=" {{ url_for('logout') }}">Sair</a>
+<!-- Se não tiver nenhuma foto, mostra a foto padrão -->
+{% if not usuario.fotos %}
+    <img src="{{ url_for('static', filename='fotos_posts/default.png') }}" width="200">
+{% endif %}
+
+<!-- Formulário de envio de foto só aparece para o dono do perfil -->
+{% if form %}
+    <h2>Atualizar foto</h2>
+    <form method="POST" enctype="multipart/form-data">
+        {{ form.csrf_token }}
+
+        <p>
+            {{ form.foto.label }}<br>
+            {{ form.foto() }}
+        </p>
+
+        <p>{{ form.botao_confirmacao() }}</p>
+    </form>
+{% endif %}
+
+<p><a href="{{ url_for('logout') }}">Sair</a></p>
+
 {% endblock %}
